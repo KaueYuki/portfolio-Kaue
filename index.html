@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Receitas do dia a dia</title>
+    <title>Dinossauro</title>
 </head>
 
 <body>
@@ -14,51 +14,92 @@
         <div class="logo">Meu Projeto</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a>
-                <li><a href="#">Sobre mim</a>
-                <li><a href="#">Projetos</a>
-                <li><a href="#">Contatos</a>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre mim</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Contatos</a></li>
             </ul>
         </nav>
     </header>
 
 
 
-    <h1>Bem-Vindo ao Site de Receitas simples</h1>
+    <h1>Dinossauro</h1>
     <strong>
-        <p>Bolo de Limão</p><strong>
+        <p>Dino verde</p><strong>
             <img src="C:\Users\aluno\Pictures\dinofofo.webp">
 
-            <h1 style="color: blue;">TÍTULO AZUL</h1>
-            <p style="color:#37F440;">TÍTULO VERDE</p>
 
             <!--PARAGRAFO DA AULA 2-->
 
             <section style="text-align: center; border: 2px solid #333; padding: 20px;">
-                <h3 style="color: #3D8AEF;">Meu perfil programador</h3>
+                <h3 style="color: black;">Meu perfil programador</h3>
 
-                <img src="https://picsum.photos/200" style="width: 150px; border-radius: 50%; border: 3px solid darkcyan;" alt="Foto de Perfil">
-
-
-                <p style="color:#3CF0DD; font-family:Arial, Helvetica, sans-serif;">
+                <img src="https://picsum.photos/200" style="width: 150px; border-radius: 50%; border: 3px solid black;" alt="Foto de Perfil">
+                <p style="color:black; font-family:Arial, Helvetica, sans-serif;">
                     Estou aprendendo a criar elementos com <strong>HTML 5</strong>
                 </p>
 
-                <button style="background-color: darkcyan; color: white; border:none; padding:10px  20px; border-radius:5px">
+                <button style="background-color: black; color: white; border:none; padding:10px  20px; border-radius:5px">
                     Ver projetos
                 </button>
             </section>
-<br>
-<br>
+            <section class="slider">
+                <div class="slider-content">
+                    <input type="radio" name="btn-radio" id="radio1" checked>
+                    <input type="radio" name="btn-radio" id="radio2">
+                    <input type="radio" name="btn-radio" id="radio3">
+                    <input type="radio" name="btn-radio" id="radio4">
+                    <div class="slider-box first">
+                        <img src="https://picsum.photos/id/10/800/400" alt="montanhas">
+                    </div>
+                    <div class="slider-box">
+                        <img src="https://picsum.photos/id/20/800/400" alt="Escrivaninha">
+                    </div>
+                    <div class="slider-box">
+                        <img src="https://picsum.photos/id/30/800/400" alt="caneca">
+                    </div>
+                    <div class="slider-box">
+                        <img src="https://picsum.photos/id/20/800/400" alt="Escrivaninha">
+                    </div>
 
-<main>
-    <h2 style="text-align: center; margin-top: 20px;">Minha Galeria</h2>
-    <section class="Galaria" style="text-align: center; border: 2px solid #333; padding: 20px;">
-        <img src="C:\Users\aluno\Pictures\dinofofo.webp" alt="Projeto 1">
-        <img src="C:\Users\aluno\Pictures\dinofofo.webp" alt="Projeto 2">
-        <img src="C:\Users\aluno\Pictures\dinofofo.webp" alt="Projeto 3">
-    </section>
-</main>
-   
+                    <div class="nav-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                </div>
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </section>
+
+            <!-- RODAPÉ DA PAGINA-->
+            <footer class="rodape-principal">
+                <div class="container-rodape">
+
+                    <div class="info-copyright">
+                        <p>&copy; 2026 - Kauê Yuki</p> 
+                        <p>BackEnd Developer</p>
+
+                        <nav>
+                            <a href="https://github.com/KaueYuki">GitHub</a>
+                            <a href="#">Linkedin</a>
+                            <a href="#">Instagram</a>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="rodape-inferior">
+                    <p>Desenvolvido durante a aula de Desenvolvimento de Sistema</p>
+                </div>
+            </footer>
+
 </body>
+<script src="js.js"></script>
 </html>
+
