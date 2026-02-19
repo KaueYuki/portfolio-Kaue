@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #3A3A3A;
+  background-color: #1D1D1D;
 }
 /* Estilizar a barra de navegação*/
 .navbar {
@@ -35,7 +35,7 @@ body {
 }
 .navbar ul li a:hover {
   background-color: white; /*adiciona um fundo branco*/
-  color: antiquewhite; /*adiciona uma cor diferente ao texto*/
+  color: black; /*adiciona uma cor diferente ao texto*/
   box-shadow: 0px 4px 10px rgba(0, 0, 0.3);
   /*0px move na horizontal
   4px move na vertical
@@ -156,4 +156,19 @@ body {
 .info-copyright{
   text-align: center;
   margin: 5px 0;
+}
+.btn-entrar button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-entrar button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
 }
