@@ -7,6 +7,7 @@
 
 body {
   background-color: #0D0D0D;
+  padding-top:70px
 }
 /* Estilizar a barra de navegação*/
 .navbar {
@@ -17,6 +18,9 @@ body {
   align-items: center;
   padding: 15px 5%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position:fixed;
+  top: 0;
+  width: 100%;
 }
 .logo img {
    margin-bottom:start;
@@ -165,21 +169,7 @@ body {
   text-align: center;
   margin: 5px 0;
 }
-.btn-entrar button {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn-entrar button:hover {
-    background-color: white;
-    color: black;
-    transform: scale(1.1);
-}
+ 
 .titulo-v1{
     color: white;
     margin-bottom: 15px; /* espaço embaixo do título */
@@ -314,4 +304,19 @@ body {
     line-height: 1.6; /* espaço entre linhas do texto */
     width: 60%;
     margin-left: 0px;
+}
+html{
+  scroll-behavior: smooth;  
+}
+.viloesc{
+  padding-top: 70px;
+}
+.quadrinhos{
+  padding-top: 70px
+}
+.animaçao{
+  padding-top:70px
+}
+.historia{
+  padding-top:70px
 }
