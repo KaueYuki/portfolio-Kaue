@@ -320,3 +320,87 @@ html{
 .historia{
   padding-top:70px
 }
+.membro2{
+  color: white;
+    margin-bottom: 15px; /* espaço embaixo do título */
+}
+.textom1{
+   color: white;
+    margin-bottom: 30px; /* espaço depois do parágrafo */
+    line-height: 1.6; /* espaço entre linhas do texto */
+    width: 60%;
+    margin-left: 0px;
+}
+.membro3{
+  color: white;
+    margin-bottom: 15px; /* espaço embaixo do título */
+}
+.textom2{
+   color: white;
+    margin-bottom: 30px; /* espaço depois do parágrafo */
+    line-height: 1.6; /* espaço entre linhas do texto */
+    width: 60%;
+    margin-left: 0px;
+}
+.membromr{
+color: white;
+    margin-bottom: 15px; /* espaço embaixo do título */  
+}
+.membromr1{
+color: white;
+    margin-bottom: 15px; /* espaço embaixo do título */  
+}
+.textom4{
+  color: white;
+    margin-bottom: 30px; /* espaço depois do parágrafo */
+    line-height: 1.6; /* espaço entre linhas do texto */
+    width: 60%;
+    margin-left: 0px;
+}
+.formulario {
+  display: grid;
+  flex-direction: column-reverse;
+  align-items: end;
+  gap: 20px;
+}
+.formulario input, .formulario textarea {
+  width: 300px;
+  padding: 10px; 
+  border-radius: 10%;
+  border: 1px solid #ccc ;
+  border-radius: 5px;
+}
+.submit-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: none;
+  cursor: pointer;
+}
+.submit-button:hover
+ {  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+  transition: 0.4s;
+}
+.contato{
+  background-color: rgb(255, 255, 255);
+  width: 1000px;
+  height: auto;
+  border-radius: 15px;
+  color: black;
+  margin: 0px auto; /*Centraliza o formulário horizontalmente*/
+  box-shadow: 0px 10px 20px rgba(119, 119, 119, 0.3); /*sombra para dar profundidade*/
+  box-sizing: border-box ; /*Garante que o preenchimento e a borda sejam incluídos no tamanho total do elemento*/
+  width: 500px;
+  height: auto;
+  margin-right: 20px;
+}
+#message{
+  resize: none; /*Desativa a opção de redimensionar a caixa de texto*/
+   gap: 10px;
+   padding: 10px;
+
+}

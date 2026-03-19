@@ -25,5 +25,5 @@ function proxImg(){
     //+ o numero do contador.
     //O '.checked = true' marca aqueles inputs de radio automaticamente
     //Quando o radio é marcado, o CSS que configuramos ira mudar a imagem automaticamente.
-    document.getElementById("radio" + contador) = true;
-}
+    document.getElementById("radio" + contador).checked = true;                                            
+  }
