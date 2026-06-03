@@ -1,379 +1,169 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="js.js"></script>
-    <title>Batman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/77b4ef7fc8.js" crossorigin="anonymous"></script>
+    <title>Kaue Yuki - DEV JR.</title>
 </head>
-
 <body>
 
-    <header class="navbar">
-        <div class="logo"><img src="C:\Users\aluno\Downloads\img\toppng.com-batman-dark-logo-png-1514x707.png"alt="Logo Batman">
-            Filmes
+
+    <!-- Header -->
+    <header>
+        <div class="nav-bar">
+            <a href="#" class="logo">Kaue Yuki</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <a href="#home">Home</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#skills">Habilidades</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact ">Contatos (Em Breve)</a>
+                </div>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#index">Filmes</a></li>
-                <li><a href="#viloes">Vilão</a></li>
-                <li><a href="#quadrinhos">Quadrinhos</a></li>
-                <li><a href="#animaçoes">Animações</a></li>
-                <li><a href="#historia">História</a></li>
-            </ul>
-        </nav>
     </header>
 
-            
-            <!--PARAGRAFO DA AULA 2-->
+    <!-- Home -->
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="media-icons">
+                <a href="https://wa.me/556299298094"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/KaueYuki/portfolio-Kaue"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="info">
+                <h2>Ola, sou o Kaue,</h2>
+                <h3>Desenvolvedor <i class="fas fa-rocket"></i></h3>
+                <p> Eu crio websites basicos para o seu negócio (Esta página está em desenvolvimento, caso encontre algum bug ou erros
+                por favor me informe!)</p>
+                <a href="https://wa.me/556299298094" target="blank" class="btn">Fale diretamente comigo <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="home-img">
+                <img src="#" alt="">
+            </div>
+        </div>
+        <a href="#sobre" class="scroll-down">Deslize para baixo<i class="fas fa-arrow-down"></i></a>
+    </section>
 
-            <section  id="index" style="text-align: center; border: 2px solid #333; padding: 20px; padding-top:70px;">
-                <h3 style="color: white;">Bruce Wayne</h3>
 
-                <img src="https://i.pinimg.com/736x/da/9e/8a/da9e8a7d1bdff9bfaf00b5508ab8172d.jpg" style="width: 150px; border-radius: 50%; border: 3px solid black;" alt="Foto de Perfil">
-                <p style="color:white; font-family:Arial, Helvetica, sans-serif;margin-bottom:30px;">
-                    Conheça mais sobre o maior <strong>HERÓI</strong> das historias em quadrinho e seus <strong>VILÕES</strong>
-                </p>
-            </section>
-            <h1 style="text-align: center;color: white;">Principais filmes</h1>
-            <section class="slider">
-                <div class="slider-content">
-                    <input type="radio" name="btn-radio" id="radio1" checked>
-                    <input type="radio" name="btn-radio" id="radio2">
-                    <input type="radio" name="btn-radio" id="radio3">
-                    <input type="radio" name="btn-radio" id="radio4">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\begins.webp" alt="Batman begins">
-                    </div>
-                    <div class="slider-box">
-                        <img src="C:\Users\aluno\Downloads\img\cavaleiro.png" alt="Cavaleiro das trevas">
-                    </div>
-                    <div class="slider-box">
-                        <img src="C:\Users\aluno\Downloads\img\batman vs superman.jpg" alt="batman vs superman">
-                    </div>
-                    <div class="slider-box">
-                        <img src="C:\Users\aluno\Downloads\img\the batman.webp" alt="the batman">
-                    </div>
+    <!-- Sobre Section -->
 
-                    <div class="nav-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                        <div class="auto-btn4"></div>
+    <section class="about section" id="sobre">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Sobre</h1>
+            <h2 class="section-title-02">Sobre</h2>
+            <div class="content flex-center">
+                <div class="about-img">
+                    <img src="https://i.redd.it/qq13j65xf5v81.jpg" alt="">
+                </div>
+                <div class="about-info">
+                    <div class="description">
+                    <h3>Eu me chamo Kaue,</h3>
+                    <h4>Estou iniciando como desenvolvedor<SPAN> Front-End</SPAN> e estou melhorando meus conhecimentos em <span>Back-End</span></h4>
+                    <p>Gosto de criar websites basicos para melhorar o aprendizado no uso de HTML e CSS. Confira meu portfólio.</p>
+                </div>
+                <ul class="professional-list">
+                    <li class="list-item">
+                        <h3>5+</h3>
+                        <span>meses de Experiência com Desenvolvimento de Sistemas. <br></span>
+                    </li>
+                    <li class="list-item">
+                        <h3>5</h3>
+                        <span>meses de vivência com desenvolvimento web <br>e de aplicações com HTML e CSS.</span>
+                    </li>
+                </ul>
+                <a href="Curriculo_Kaue_Yuki_Kozima.docx" class="btn">Download CV <i class="fas fa-download"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Habilidades Section -->
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Minhas Habilidades</h1>
+            <h2 class="section-title-02">Minhas Habilidades</h2>
+            <div class="content">
+                <div class="skills-description">
+                    <h3>Educação e Habilidades</h3>
+                    <p>Por 5 meses venho criando sites, resolvendo problemas e analisando codigos.</p>
+                </div>
+                <div class="skills-info education-all">
+                    <div class="education">
+                        <h4><label>Educação</label></h4>
+                        <ul class="edu-list">
+                            <li class="item">
+                                <span class="year">2026-Cursando</span>
+                                <p><span>Cursando na area de Desenvolvimento de Sistemas</span> - Sesi Planalto</p>
+                            </li>
+                    <div class="education">
+                        <h4><label>Habilidades</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                                <div class="info">
+                                    <span>HTML</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="line html"></div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>CSS</span>
+                                    <span>40%</span>
+                                </div>
+                                <div class="line css"></div>
+                            </li>
+                            <li class="bar">
+                                <div class="info">
+                                    <span>JavaScript</span>
+                                    <span>10%</span>
+                                </div>
+                        </ul>
                     </div>
                 </div>
-                <div class="nav-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                    <label for="radio4" class="manual-btn"></label>
+                <div class="skills-description">
+                    <h3>Trabalhos e Experiências</h3>
                 </div>
-            </section>
-            <section class="viloesc" id="viloes"></section>
-                        <h1 style="text-align: center;color: white;margin-bottom:30px">Principais vilões</h1>
-            <h3 class="titulo-v1">1.Coringa</h3>
-            <p class="vilao1">O Coringa é sem sombra de dúvidas o principal arqui-inimigo do Cavaleiro das Trevas. E apesar de ser um dos mais populares, a sua identidade é totalmente desconhecida, sendo até hoje um dos maiores mistérios do mundo das HQs.
-
-O Coringa também foi o responsável por alguns dos atos mais cruéis da história dos quadrinhos. Ele assassinou o Robin, Jason Todd, e ainda deixou a Batgirl, Barbara Gordon, numa cadeira de rodas.</p>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\coringa.jpeg" alt="coringa 2">
-                   </div>
-            </section>
-            <section>
-                    <h3 class="titulo-v2">2.Duas Caras</h3>
-                    <p class="vilao2">Harvey Dent estava no seu auge, sendo considerado o "Cavaleiro Branco de Gotham", um promotor público em 
-                        que todos confiavam e que agia de maneira muito justa. Uma de suas características é que costumava tomar decisões 
-                        com base em uma moeda de Duas-Caras, a qual dizia ser uma lembrança de seu pai. Durante um julgamento, o mafioso Sal Maroni lhe jogou uma substância 
-                        muito ácida em metade do seu rosto (o lado esquerdo, especificamente). Após ver sua aparência altamente deformada ele se tornou alguém muito vingativo,
-                         mas que passou a não simplesmente se decidir usando sua moeda, mas se tornando dependente das escolhas dela</p>
-                          <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\Duas caras.avif" alt="Duas caras 1">
-                    </div>
-            </section>
-
-            <section>
-                <h3 class="titulo-v3">3.Arlequina</h3>
-                <p class="vilao3">Dr. Harleen Frances Quinzel, também conhecida como Harley Quinn, apareceu pela primeira vez em Batman: The Animated 
-                    Series no episódio "Um Favor Para o Coringa" (Episódio #22, data original em que foi ao ar: 11 de setembro de 1992), onde ela serviu
-                     como uma ajudante do Coringa. Em suas primeiras aparições ela foi retratada como uma personagem totalmente dedicada ao Coringa, totalmente alheia
-                     à sua natureza psicótica e sua óbvia falta de afeto por ela foram algumas caracterizações que se mantiveram, mais ou menos, consistente ao longo de suas 
-                     aparições subsequentes. Seu nome está relacionado com o famoso palhaço "Arlequim".</p>
-                <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\arlequina.jpg" alt="arlequina">
+                <div class="skills-info">
+                    <div class="experience-card">
+                        <div class="upper">
+                            <h3>Atendente de caixa na cafeteria(Rancho)</h3>
+                            <h5>2024-2025</h5>
+                            <span>Parte da tarde</span>
                         </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <section>
-                <h3 class="titulo-v4">4.Mulher Gato</h3>
-                <p class="vilao4">Selina Kyle é uma comissária de bordo amnésica que se transformou em criminosa, depois de bater a cabeça durante um acidente de avião q
-                    ual acabou sobrevivendo (embora na edição final do The Brave and the Bold, ela admite que fingiu está amnésica porque ela queria uma forma de sair da vida
-                     passada do crime). Ela acaba se reformando e permanece assim durante vários anos, ajudando Batman em Batman # 65 e # 69, até que Selina decide voltar a uma v
-                     ida de criminosa em Detective Comics # 203 . Selina aparece novamente como uma criminosa em Batman # 84 e Detective Comics 
-                     # 211, sua última aparição, durante muitos anos (até 1966)</p>
-                     <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\mulher gato.jpg" alt="Mulher Gato">
+
+    <!-- Portfolio Section -->
+
+    <section class="portfolio section" id="portfolio">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Meu Portfolio</h1>
+            <h2 class="section-title-02">Meu Portfolio</h2>
+            <div class="content">
+                <div class="portfolio-list">
+                    <div class="img-card-container">
+                        <div class="img-card">
+                            <div class="overlay"></div>
+                            <div class="info">
+                            </div>
+                             <img src="C:\Users\Ads.kauekozima\Documents\HTML\WhatsApp Image 2026-06-03 at 10.18.14.jpeg">
+                          </div>
                         </div>
-
-            </section>
-            <section class="quadrinhos" id="quadrinhos"></section>
-            <h1 style="text-align: center;color: white;margin-bottom: 30px;">Quadrinhos</h1>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\baixados (5).jpg" alt="hqs">
-                   </div>
-            </section>
-
-            <div style="width: 70%; margin: 0 auto;margin-bottom: 40px;">
-            <h3 style="text-align: center;color: white;">Criado em 1939 pela DC Comics, o Batman se tornou um dos heróis mais importantes dos quadrinhos. 
-                Diferente de outros personagens, ele não possui superpoderes, usando inteligência, estratégia e tecnologia para combater o crime em Gotham City.
-Suas histórias exploram o lado sombrio do herói e marcaram gerações, servindo de base para filmes, séries e jogos.</h3>
-                </div>
-            <h1 style="color: white;margin-bottom: 40px;">Os 5 Melhores Quadrinhos:</h1>
-            <h3 class="quadrinhos1">1.Batman Absolute(2024)</h3>
-            <p class="textoq1">Absolute Batman é uma série de quadrinhos de super-heróis escrita por Scott Snyder e
-                 ilustrada principalmente por Nick Dragotta. O primeiro título publicado pela DC Comics para sua linha Absolute Universe, ele reimagina o vigilante titular como um engenheiro civil de classe trabalhadora em uma Gotham City muito mais violenta e caótica do que frequentemente se vê na continuidade mainstream da DC.
-    A série teve grande sucesso financeiro, além de elogios pela arte de Dragotta, seu tom energizado e uma
-    abordagem inovadora ao mito do Batman.</p>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\absolute batman.webp" alt="absolute batman">
-                   </div>
-            </section>
-            <section>
-                    <h3 class="quadrinhos2">2.Batman: a Gárgula de Gotham(2023)</h3>
-                    <p class="textoq2">Em uma Gotham City mergulhada em sombras e incertezas, Batman toma uma decisão que mudará sua vida para sempre: renunciar
-                         à identidade de Bruce Wayne e se tornar o vigilante em tempo integral. Porém, mesmo dominando as ruas da cidade, o herói logo p
-                         ercebe que há mistérios em sua própria essência que ainda não desvendou. Uma nova leva de vilões cruéis começa a surgir das profundezas de G
-                         otham, desafiando Batman a confrontar não apenas o mal ao seu redor, mas também a escuridão que reside em seu próprio coração.</p>
-                          <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\Batman-Gargula-de-Gotham-2023-A-Geleia.jpg" alt="Batman: a Gárgula de Gotham">
-                    </div>
-            </section>
-
-            <section>
-                <h3 class="quadrinhos3">3.Batman: a Piada Mortal(1988)</h3>
-                <p class="textoq3">O Coringa tenta provar que qualquer pessoa pode enlouquecer após “um dia ruim”. Ele atira em Barbara Gordon e 
-                    sequestra o Comissário Gordon, submetendo-o a tortura psicológica para fazê-lo perder a sanidade.
-                    Enquanto isso, Batman corre para impedir o vilão. No final, Gordon resiste e mantém sua lucidez, mostrando 
-                    que o plano do Coringa falha. A história termina com um confronto intenso e um final ambíguo entre Batman e o Coringa.</p>
-                <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\piada mortal.jpg" alt="Piada mortal">
-                        </div>
-            </section>
-
-            <section>
-                <h3 class="quadrinhos4">4.Batman O Cavaleiro das Trevas(1986)</h3>
-                <p class="textoq4">Nesta história, Bruce Wayne já está mais velho e aposentado, mas decide voltar a ser Batman quando Gotham mergulha no caos.
-                     A HQ apresenta uma versão mais sombria e experiente do herói, enfrentando novos desafios e mostrando um lado mais humano e 
-                     intenso do personagem. É uma das obras mais influentes da história dos quadrinhos.</p>
-                     <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\Cavaleiro das trevas hq.jpg" alt="Cavaleiro das Trevas">
-                        </div>
-
-            </section>
-            <section  class="animaçao" id="animaçoes"></section>
-             <h1 style="text-align: center;color: white;margin-bottom: 30px;">Animações</h1>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\the-batman-batman-beyond-batman-animated.avif" alt="animaçoes">
-                   </div>
-            </section>
-
-            <div style="width: 70%; margin: 0 auto;margin-bottom: 80px;">
-            <h3 style="text-align: center;color: white;">As animações do Batman tiveram papel fundamental na construção do personagem fora dos quadrinhos.
-                 Com histórias sombrias e bem desenvolvidas, elas ajudaram a consolidar a imagem do Cavaleiro das Trevas para novas gerações.</h3>
-                </div>
-                <section>
-                <p style="text-align: start; color:white;margin-bottom:80px;font-size: 18px;">As animações do Batman ganharam grande destaque a partir dos anos 1990, especialmente 
-                    com Batman: The Animated Series, que marcou época por seu estilo sombrio, roteiros profundos e trilha sonora marcante. A série ajudou a definir a personalidade moderna do herói e apresentou versões icônicas de personagens como o Coringa e a Arlequina.
-Desde então, diversos filmes e séries animadas foram lançados, adaptando histórias clássicas dos quadrinhos e explorando o lado psicológico do 
-personagem. As animações se tornaram parte essencial do universo do Batman, influenciando inclusive produções para o cinema e os videogames. </p>
-
-                </section>
-            <h1 style="color: white;margin-bottom: 40px;">As 5 Melhores Animações:</h1>
-            <h3 class="anima1">1.Batman: Ano Um (Batman: Year One, 2011)</h3>
-            <p class="textoa1">Primeiro lugar com a origem do Batman? Pois é. Esta é a adaptação mais fiel, ou melhor dizendo, mais 
-                próxima dos quadrinhos e, ainda por cima, com uma identidade audiovisual própria. Ainda que os traços e o roteiro 
-                remetam quase que em 90% à obra de Frank Miller, o que se assiste na tela tem um frescor que nenhum dos filmes contando a morte 
-                da família Wayne tem. E assim desenvolve-se como o bilionário órfão Bruce Wayne, após 12 anos estudando e treinando no exterior, retorna à Gotham City 
-                para se tornar o Batman. Justamente no mesmo dia em que o tenente James Gordon se mudava com a esposa grávida, Bárbara. Policiais corruptos, vilões por trás 
-                os panos, máfia em alta na cidade e até uma Mulher Gato como poucos já viram dão as caras, dando um ar geral de como funciona o mundo do homem-morcego, suas 
-                raízes, ideias e conceitos, numa obra superior a muito longa live action lançado por aí. Obrigatório para ter na estante e rever sempre.</p>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\Batman-Year-One.avif" alt="primeiroano">
-                   </div>
-            </section>
-            <section>
-                    <h3 class="anima2">2.Batman: A Máscara do Fantasma (Batman: Mask of the Phantasm, 1993)</h3>
-                    <p class="textoa2">O sucesso de Tim Burton com os dois primeiros filmes do morcegão nos cinemas fez com que a Warner/DC planejasse 
-                        algo que estava engavetado há anos: a série animada produzida por Bruce Timm e que foi um dos maiores sucessos da década de 1990. 
-                        Pois o lançamento coincidiu com este especial de Natal que serviu como uma prévia de tudo que o seriado ia oferecer em termos de 
-                        qualidade e fidelidade à natureza do Batman. Nesta trama ele enfrenta o Fantasma, um novo bandido que mata um grande criminoso e faz 
-                        parecer que o herói cometeu o crime. É claro, fazendo com que Gotham City se volte contra ele. Ao mesmo tempo, o Coringa anda aprontando suas 
-                        maluquices. Não à toa é um preferido dos fãs, já que se tornou referência não apenas nos longas como nas próprias HQs. E faz lembrar do quanto 
-                        aquela série animada faz falta.</p>
-                          <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\Batman-in-Mask-of-the-Phantasm.avif" alt="Batman: a mascara">
-                    </div>
-            </section>
-
-            <section>
-                <h3 class="anima3">3.Liga da Justiça: A Legião do Mal (Justice League: Doom, 2012)</h3>
-                <p class="textoa3">Nos quadrinhos, Batman sempre foi um dos principais membros da Liga da Justiça, ao lado, é claro, de Superman e Mulher 
-                    Maravilha. A santa trindade da DC Comics. Numa das histórias mais aclamadas nos últimos 20 anos, Torre de Babel, um vilão desconhecido começa a 
-                    atacar os membros da equipe com seus pontos fracos. Logo se descobre que quem sabia de tudo sobre eles era o próprio Batman, que na sua eterna 
-                    desconfiança de detetive, traçou planos de contingência contra os amigos superpoderosos. Na animação, o vilão é Vandal Savage, ao lado de outros 
-                    inimigos específicos de cada um dos integrantes da Liga. Porém, o principal não é apenas a ameaça iminente, e sim a reação que a traição de Bruce 
-                    vai causar nos seus colegas. Especialmente em Clark e Diana, é claro. O filme pode não ter Batman no título, mas é, acima de tudo, uma história de como 
-                    funciona a mente de Bruce, mesmo com as pessoas que ele mais gosta.</p>
-                <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\ef840eaece426655d21acc3fc01419a24edf849c.avif" alt="legiao do mal">
-                        </div>
-            </section>
-
-            <section>
-                <h3 class="anima4">4.Batman Contra o Capuz Vermelho (Batman: Under the Red Hood, 2010)</h3>
-                <p class="textoa4">Jason Todd foi o segundo Robin nos quadrinhos. Quem não acompanha, talvez nem lembre do rapaz, mas ele era impetuoso, 
-                    descuidado, explosivo. Por isso mesmo morreu nas mãos do Coringa numa saga em que o próprio público foi convocado para opiniar se ele deveria 
-                    sumir ou não. Mesmo com a baixa popularidade, o personagem sempre foi muito complexo, o que, anos depois, fez os roteiristas dos quadrinhos o reviverem.
-                     É claro que a trama traz Ra’s al Ghul com seus Poços de Lázaro, a Liga de Assassinos e o tal Capuz Vermelho, ninguém menos que Todd disfarçado num misto 
-                     de vingança e mágoa contra o Batman e o desejo ainda latente de ser um grande justiceiro, ainda que seus métodos sejam mais violentos e levem os criminosos
-                      à morte. O longa adapta bem estes momentos, deixando um ar agridoce na figura do próprio Robin. Afinal, Todd tem alguma razão em sua mágoa? E Wayne, vai 
-                      sempre se sentir culpado por algo que lhe fugiu das próprias mãos? São questões complexas que o filme até pode não responder, mas deixa no ar para o 
-                      público pensar ainda melhor sobre como é árdua a tarefa de ser um herói.</p>
-                     <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\1200x675.jpg" alt="Capuz vermelho">
-                        </div>
-
-            </section>
-            <section class="historia" id="historia"></section>
-                <h1 style="text-align: center;color: white;margin-bottom: 30px;">História</h1>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\img\batman-a-evolucao-do-heroi-nos-quadrinhos-ao-longo-dos-anos-1024x580.jpg" alt="historia">
-                   </div>
-            </section>
-
-            <div style="width: 70%; margin: 0 auto;margin-bottom:20px">
-            <h3 style="text-align: center;color: white;">Bruce Wayne é filho de Thomas Wayne e Martha Wayne, um casal rico e generoso de Gotham City. Quando tinha oito anos, ele viu seus pais serem assassinados por Joe Chill ao saírem de um cinema, o que marcou sua vida para sempre.
-Depois disso, Bruce jurou combater o crime. Já adulto, tornou-se o Batman, um bilionário dono da Wayne Enterprises que usa inteligência, treinamento e tecnologia para lutar contra criminosos. Ele conta com a ajuda de Alfred Pennyworth, Jim Gordon e Robin, enfrentando vilões como o Coringa.</h3>
-                </div>
-            <h1 style="color: white;margin-bottom:40px">Como Tudo Começou:</h1>
-            <h3 class="historia1"></h3>
-             <h1 style="color: white;margin-bottom: 15px;">A bat-família</h1>
-            <h3 class="membros1">Membros principais</h3>
-            <p class="textom1">Com o tempo, o Batman deixou de ser um vigilante solitário e passou a contar com uma rede de aliados conhecida como Bat-Família. Cada membro tem habilidades únicas, histórias próprias e uma relação diferente com o Cavaleiro das Trevas.</p>
-            <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\batfamilia.avif" alt="batf">
-                   </div>
-            </section>
-            <section>
-                    <h3 class="membro2">Alfred Pennyworth</h3>
-                    <p class="textom1">Alfred é muito mais do que um simples mordomo. Ex-agente de inteligência (em algumas versões) e com treinamento médico, ele é responsável por manter Bruce física e mentalmente estável. Ele costura ferimentos, dá conselhos e muitas vezes é a única pessoa que consegue confrontar Batman de igual para igual.
-Sua importância é tão grande que muitos o consideram a verdadeira base emocional da Bat-Família.</p>
-                          <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\alfred.jpg" alt="Alfred">
-                    </div>
-            </section>
-
-            <section>
-                <h3 class="membrom3">Robins</h3>
-                <h2 class="membromr">Dick Grayson</h2>
-                <p class="textom2">Dick era um acrobata de circo que perdeu os pais de forma semelhante a Bruce. Ele foi o primeiro Robin e trouxe leveza ao lado sombrio do Batman.
-Como Nightwing, se torna um herói independente e líder nato, conhecido por sua habilidade acrobática excepcional, carisma e forte senso de justiça. Ele é frequentemente visto como o “herdeiro ideal” do Batman.</p>
-                <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\dick.avif"alt="legiao do mal">
-                        </div>
-            </section>
-
-            <section>
-                <h2 class="membromr1">Jason todd</h2>
-                <p class="textom4">Jason teve uma origem mais difícil, vindo das ruas de Gotham. Como Robin, era mais impulsivo e violento.
-Após ser brutalmente assassinado pelo Coringa, ele retorna à vida e se torna o Red Hood. Diferente de Batman, Jason acredita que criminosos devem ser eliminados, o que gera conflitos constantes dentro da Bat-Família.</p>
-                     <section class="slider">
-                <div class="slider-content">
-                    <div class="slider-box first">
-                        <img src="C:\Users\aluno\Downloads\red-hood-sitting-holding-a-gun-and-a-book.avif" alt="Capuz vermelho">
-                        </div>
-
-            </section>
-
-           
-            <!-- RODAPÉ DA PAGINA-->
-            <footer class="rodape-principal">
-                <div class="container-rodape">
-
-                    <div class="info-copyright">
-                        <p>&copy; 2026 - Kauê Yuki</p> 
-                        <p>BackEnd Developer</p>
-
-                        <nav class="link-sociais">
-                            <a href="https://github.com/KaueYuki">GitHub</a>
-                            <a href="#">Linkedin</a>
-                            <a href="https://www.instagram.com/kauekozima/">Instagram</a>
-                        </nav>
                     </div>
                 </div>
-     <section class="contato"
-                    style="border: 50px solid rgb(255, 255, 255); padding: 20px; margin-top: 20px;">
-                    <div class="formulario">
-                        <h2>Formulário de Contato</h2>
-                        <form action="#" method="post">
-                            <label for="name" style="color: #000000;">Nome:</label>
-                            <input type="text" id="name" name="name" required>
-
-                            <label for="email" style="color: #000000;">Email:</label>
-                            <input type="email" id="email" name="email" required>
-                            
-                            <label for="message" style="color: #000000;">Mensagem:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-
-                            <button class="submit-button" type="submit">Enviar</button>
-                        </form>
+            </div>
+        </div>
+    </section>
 
 
-
-
-                </section>
-                <div class="rodape-inferior">
-                    <p>Desenvolvido durante a aula de Desenvolvimento de Sistema</p>
-                </div>
-            </footer>
-
+    <script src="./main.js"></script>
 </body>
-<script src="js.js"></script>
+
 </html>
